@@ -1,1 +1,117 @@
+/* reset */
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+
+/* overall page */
+body {
+  font-family: 'Poppins', Arial, sans-serif;
+  background-color: #fff5f8;
+  color: #444;
+  line-height: 1.6;
+  max-width: 80ch;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+/* header */
+header {
+  text-align: center;
+  padding: 2rem 0;
+  background-color: #ffe6ef;
+  border-radius: 1rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 10px rgba(255, 182, 193, 0.4);
+}
+
+header h1 {
+  color: #d63384;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+nav a {
+  color: #ff66a3;
+  text-decoration: none;
+  margin: 0 0.8rem;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #d63384;
+  text-decoration: underline;
+}
+
+/* main sections */
+section {
+  margin: 2rem 0;
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 2px 8px rgba(255, 192, 203, 0.3);
+}
+
+h2 {
+  color: #d63384;
+  text-align: center;
+}
+
+/* image & figure */
+figure {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+figure img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 1rem;
+  box-shadow: 0 3px 10px rgba(255, 182, 193, 0.4);
+}
+
+figcaption {
+  color: #666;
+  font-style: italic;
+  margin-top: 0.5rem;
+}
+
+/* form */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+label {
+  font-weight: bold;
+  color: #d63384;
+}
+
+input, textarea, button {
+  padding: 0.75rem;
+  border: 1.5px solid #ffb6c1;
+  border-radius: 0.5rem;
+  font-family: inherit;
+}
+
+button {
+  background-color: #ff66a3;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #d63384;
+}
+
+/* footer */
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #888;
+  margin-top: 2rem;
+}
+
 
